@@ -12,6 +12,6 @@ public class OrganisationUserFactoryTest {
        OrganisationUser organisationUser = OrganisationUserFactory.buildOrganisationUser("OF-c5a7a72e-cc1c-4fcc-a825-40db685fbc5a", "booysen31.matthew@gmail.com");
 
        assertNotNull(organisationUser);
-        System.out.println("The Object Created : " + organisationUser);
+       System.out.println("The Object Created : " + organisationUser);
     }
 }

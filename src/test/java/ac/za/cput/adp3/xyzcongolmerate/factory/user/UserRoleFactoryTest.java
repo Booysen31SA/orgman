@@ -12,5 +12,8 @@ public class UserRoleFactoryTest {
         UserRole userRole = UserRoleFactory.buildUserRole("OF-995717c2-0a95-455c-914f-fcbaf0cbc655"
                                                          ,"Booysen31.matthew@gmail.com"
                                                          ,"RF-bce42ce8-2e41-4291-bd16-281c073cb144");
+
+        assertNotNull(userRole);
+        System.out.println("The Object that was created is : " + userRole);
     }
 }

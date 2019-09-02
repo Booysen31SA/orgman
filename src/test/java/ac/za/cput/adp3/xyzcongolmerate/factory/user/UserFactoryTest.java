@@ -15,6 +15,6 @@ public class UserFactoryTest {
                                         ,"Booysen");
 
        assertNotNull(user);
-        System.out.println("The Object Created is : "+user);
+       System.out.println("The Object Created is : "+user);
     }
 }
