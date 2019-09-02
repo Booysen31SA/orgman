@@ -21,8 +21,8 @@ public class Helper {
             if(Character.isUpperCase(className.charAt(i))){  // checks if the letter is uppercase
               char upperCase = className.charAt(i);   // copies the uppercase letter to a variable
                 upperCaseLetters = upperCaseLetters + upperCase + ""; // adds each uppercase to the string
-            }
-        }
+            }//end of if statement
+        }//end of for loop
         return upperCaseLetters; // returns all the capital letters
     }
 }
