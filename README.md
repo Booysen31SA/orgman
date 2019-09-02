@@ -1,9 +1,9 @@
 #Orgman
 
-[Assignment One]
+[Assignment One](##Assignment-1-Factory)
 
 ##August Exam Makeup
-(##Assignment-1-Factory)
+   
    1. Fork the orgman project from github.com/caniksea/orgman into your github repository.
    2. Do NOT modify all classes marked with the "DO NOT MODIFY" comments.
    3. Do NOT modify any method signatures.
