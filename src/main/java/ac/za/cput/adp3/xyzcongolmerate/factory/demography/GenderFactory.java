@@ -9,14 +9,9 @@ public class GenderFactory {
 
     //TODO: implement method body ONLY!
     public static Gender buildGender(String genderDescription) {
-        throw new UnsupportedOperationException("Not yet supported!");
-        /**
-         * Your implementation goes here
-         * INSTRUCTIONS
-         * 1. Remove line [//TODO: implement method body ONLY!]
-         * 2. Remove line [throw new UnsupportedOperationException("Not supported yet.");]
-         * 3. Generate random id using SUFFIX (Hint: call generateRandomGivenSuffix method in Helper class)
-         * 4. Build and return an object of Gender
-         */
+        return new Gender.Builder()
+                .genderId(Helper.generateRandomGivenSuffix(SUFFIX))
+                .genderDescription(genderDescription)
+                .build();
     }
 }
