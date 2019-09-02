@@ -7,7 +7,6 @@ public class RaceFactory {
 
     private static final String SUFFIX = Helper.getSuffixFromClassName(RaceFactory.class); // Expecting RF from (R)ace(F)actory.
 
-
     public static Race buildRace(String raceDescription) {
        return new Race.Builder()
                .raceId(Helper.generateRandomGivenSuffix(SUFFIX))

@@ -7,7 +7,6 @@ public class RoleFactory {
 
     private static final String SUFFIX = Helper.getSuffixFromClassName(RoleFactory.class); // Expecting RF from (R)ole(F)actory.
 
-
     public static Role buildRole(String roleName) {
        return new Role.Builder()
                .roleId(Helper.generateRandomGivenSuffix(SUFFIX))
