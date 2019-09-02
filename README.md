@@ -1,6 +1,6 @@
 #Orgman
 
-[Assignment One](##Assignment-1-Factory)
+- Assignment 1 Factory
 
 #August Exam Makeup
    ##Assignment 1 Factory
